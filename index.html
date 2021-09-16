@@ -28,18 +28,28 @@ body{
 }
 #maid #list ul {
 	list-style-type: none;
-	padding-left: 0px;
 	line-height: 26px;
 	}
-div ul li {
-	margin-bottom: 10px;
-}
 #maid #list {
 	margin-top: 30px;
+}
+#maid div ul {
+	list-style-image: none;
+	list-style-type: none;
 }
 #maid .tishi {
 	margin-top: 30px;
 	color: #FF0004;
+	border: 2px none #3C83EF;
+	border-radius: 5px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	padding-left: 8px;
+	background-color: #A1E7ED;
+	padding-right: 8px;
+}
+div ul .tishi li {
+	list-style-type: none;
 }
 a {
 	text-decoration: none;
@@ -53,7 +63,11 @@ a {
 <div id="maid">
   <div id="mulu">目录
 	</div>
-  <div class="tishi">温馨提示：因视频较大，缓冲时间可能较长，打开后等待缓冲一下就会开始播放。</div>
+  <div>
+	  <ul>
+	 	 <li class="tishi">温馨提示：因视频较大，缓冲时间可能较长，打开后等待缓冲一下就会开始播放。</li>
+	  </ul>
+	</div>
 	<div id="list">
 		<div>
 			<ul>
